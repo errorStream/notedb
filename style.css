@@ -1,0 +1,44 @@
+.hidden{
+    display: none;
+}
+
+body{
+    background-color: #00366c
+}
+
+.module{
+    width: 100%;
+    border-style: solid;
+    border-color: #d6d6d6;
+    border-width: 5px;
+    border-radius: 5px;
+    padding:20px;
+    margin:10px;
+    background-color: #f3eeff
+}
+
+.rowStyle-section td{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.mod-table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+.mod-table td{
+    width: 50%;
+}
+
+.mod-table:nth-child(even){
+    background-color: #ffe4fc
+}
+
+.mod-table:nth-child(odd){
+    background-color: #edd4ea
+}
+
+.commonOption span{
+    color: aliceblue;
+}
